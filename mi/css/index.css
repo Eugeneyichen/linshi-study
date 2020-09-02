@@ -1,0 +1,85 @@
+/*顶部导航开始*/
+    .top{
+        background-color: #333;
+    }
+    .top .top-nav{
+        float: left;
+        height: 40px;
+        line-height: 40px;
+    }
+    .top .top-nav .top-nav-item{
+        float: left;
+    }
+    .sep{
+        font-size: 12px;
+        color:#3a4142;
+        margin:0 8px;
+    }
+    .top .user-info{
+        float: right;
+        height: 40px;
+        line-height:40px;
+        margin-right: 26px;
+    }
+    .top .user-info .user-info-item{
+        float: left;
+    }
+    .top .cart{
+        float: right;
+        width: 120px;
+        height: 40px;
+        background-color:#424242;
+        line-height:40px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .top .cart:hover{
+        background-color:#fff;
+    }
+    .top .cart:hover .icon-cart,
+    .top .cart:hover a{
+        color:#ff6700;
+    }
+
+
+    .top .cart .icon-cart{
+        font-size:16px;
+        color:#b0b0b0;
+    }
+
+/*顶部导航结束*/
+
+/*logo区域信息开始*/
+    .header{
+        height: 100px;
+        background-color:red;
+    }
+/*logo区域信息结束*/
+
+/*焦点区域开始*/
+    .home{
+        height: 1274px;
+        background-color:purple;
+    }
+/*焦点区域结束*/
+
+/*产品区域开始*/
+    .main{
+       height: 2176px;
+       background-color:pink;
+    }
+/*产品区域结束*/
+
+/*底部导航信息开始*/
+    .footer{
+        height: 274px;
+        background-color:green;
+    }
+/*底部导航信息结束*/
+
+/*网站结束信息开始*/
+    .end{
+        height: 168px;
+        background-color:skyblue;
+    }
+/*网站结束信息结束
