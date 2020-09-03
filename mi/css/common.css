@@ -21,3 +21,12 @@ a{
 a:hover{
     color: #fff;
 }
+
+.col1{
+    float: left;
+    width: 234px;
+}
+.col2{
+    float: right;
+    width: 980px;
+}
